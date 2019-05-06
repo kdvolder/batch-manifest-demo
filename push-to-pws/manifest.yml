@@ -5,7 +5,7 @@ applications:
   memory: 1G
   disk_quota: 1G
   instances: 0
-  path: /Users/mminella/Documents/IntelliJWorkspace/batch-manifest-demo/target/batch-manifest-demo-0.0.1-SNAPSHOT.jar
+  path: target/batch-manifest-demo-0.0.1-SNAPSHOT.jar
   env:
     SPRING_APPLICATION_NAME: task-example
   services:
