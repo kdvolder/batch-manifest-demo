@@ -1,4 +1,4 @@
-#cf create-service cleardb spark fortunes-db
+#cf create-service cleardb spark mysql
 service: cleardb
 service_plan: spark
 service_name: mysql

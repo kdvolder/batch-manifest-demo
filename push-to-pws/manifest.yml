@@ -1,7 +1,8 @@
 ---
 applications:
 - name: spring-cloud-task-example
-  host: spring-cloud-task-example
+  random-route: true
+  buildpack: java_buildpack
   memory: 1G
   disk_quota: 1G
   instances: 0
